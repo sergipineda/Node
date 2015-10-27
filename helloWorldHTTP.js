@@ -1,13 +1,15 @@
-// Load the http module to create an http server.
+// Quan volem instal·ar una dependecina utilitzem la funció require, es un modul
+// es guarda una variable anomenada http
 var http = require('http');
 
-// Configure our HTTP server to respond with Hello World to all requests.
+// en respense end el contingut ie n el head la capçalera del que mostrarem
 var server = http.createServer(function (request, response) {
+	console.log(request);
   response.writeHead(200, {"Content-Type": "text/plain"});
   response.end("Hello World\n");
 });
 
-// Listen on port 8000, IP defaults to 127.0.0.1
+// i aqui el port pel que respondrem
 server.listen(8888);
 
 // Put a friendly message on the terminal
