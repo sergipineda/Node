@@ -5,8 +5,8 @@ var http = require('http');
 // en respense end el contingut ie n el head la capçalera del que mostrarem
 var server = http.createServer(function (request, response) {
 	console.log(request);
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello World\n");
+  response.writeHead(200, {"Content-Type": "text/html"});
+  response.end("<h1>Hello World</h1>");
 });
 
 // i aqui el port pel que respondrem
