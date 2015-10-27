@@ -1,0 +1,26 @@
+{
+  "name": "mipaquetempm",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "helloWorld.js",
+  "dependencies": {
+    "browserify": "^12.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergipineda/Node.git"
+  },
+  "keywords": [
+    "hola"
+  ],
+  "author": "Sergi Pineda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergipineda/Node/issues"
+  },
+  "homepage": "https://github.com/sergipineda/Node#readme"
+}
